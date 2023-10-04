@@ -1,9 +1,6 @@
-// JavaScript para una presentación de diapositivas simple en la galería
 
-// Obtén todas las imágenes de la galería
 const images = document.querySelectorAll("#galeria img");
 
-// Configura variables para controlar la diapositiva actual y el intervalo de cambio
 let currentSlide = 0;
 let slideInterval;
 
@@ -21,14 +18,13 @@ video.addEventListener("click", function () {
 });
 
 
-// Función para mostrar la diapositiva actual
 function showSlide(n) {
     images[currentSlide].style.display = "none";
     currentSlide = (n + images.length) % images.length;
     images[currentSlide].style.display = "block";
 }
 
-// Inicia la presentación de diapositivas
+
 function startSlideshow() {
     slideInterval = setInterval(() => {
         showSlide(currentSlide + 1);

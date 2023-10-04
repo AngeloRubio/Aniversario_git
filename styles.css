@@ -1,12 +1,9 @@
-/* Estilos generales */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f2f2f2;
     font-family: 'cursive', cursive;
-    /* Cambia la fuente a una cursiva elegante */
-
 }
 
 header {
@@ -18,68 +15,57 @@ header {
 
 header h1 {
     font-size: 2.5rem;
-    /* Tamaño de fuente grande */
     font-family: 'cursive', cursive;
-    /* Cambia la fuente a una cursiva elegante */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    /* Sombra de texto */
     margin-bottom: 10px;
-    /* Espaciado inferior */
     letter-spacing: 2px;
-    /* Espaciado entre letras */
     text-transform: uppercase;
 }
 
-/* Estilos para el h2 con efecto llamativo */
+
 .special-heading {
     font-size: 2rem;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    /* Sombra de texto */
+
 }
 
-/* Estilos para el ícono de corazón */
+
 .heart-icon {
     font-size: 1.9rem;
     vertical-align: middle;
-    /* Alinea verticalmente el corazón con el texto */
+
 }
 
 header p {
     font-size: 1.2rem;
-    /* Tamaño de fuente más pequeño para subtítulo */
+
 }
 
 audio {
     display: block;
     margin: 0 auto;
-    /* Centrar horizontalmente */
     margin-top: 20px;
-    /* Espaciado superior */
-    max-width: 100%;
-    /* Ajustar el ancho máximo */
+     max-width: 100%;
 }
 
-/* Estilos para centrar la imagen y redondearla */
+
 .image-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    
-    padding: 20px; /* Espacio alrededor de la imagen */
-    max-width: 80%; /* Ancho máximo para mantener una buena proporción */
-    margin: 0 auto; /* Centra horizontalmente el contenedor */
-    overflow: hidden; /* Asegura que los bordes redondeados se apliquen */
+    padding: 20px;
+    max-width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
 }
 
 .image-container img {
-    max-width: 100%; /* La imagen se ajustará al ancho del contenedor */
-    height: auto; /* La altura se ajustará automáticamente */
-    border-radius: 20px; /* Redondea los bordes de la imagen */
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
 }
 
 
-
-/* Estilos personalizados para el video */
 .video-container {
     position: relative;
     max-width: 450px;
@@ -126,7 +112,7 @@ nav a {
     font-weight: bold;
 }
 
-/* Estilos para secciones */
+
 section {
     padding: 20px;
     background-color: white;
@@ -134,7 +120,7 @@ section {
     border-radius: 5px;
 }
 
-/* Estilos para el pie de página */
+
 footer {
     background-color: #333;
     color: white;
@@ -142,7 +128,7 @@ footer {
     padding: 10px;
 }
 
-/* Estilos para imágenes en la galería */
+
 #galeria img {
     max-width: 100%;
     height: auto;
